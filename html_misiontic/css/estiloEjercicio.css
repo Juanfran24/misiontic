@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+}
+
+#formulario{
+    width: 40%;
+    float: left;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+}
+
+#tabla{
+    width: 60%;
+    border-width: 50px;
+    float: right;
+}
+
+#boton{
+    padding: 5px;
+    background-color: rgb(0, 153, 255);
+    width: 50px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 204, 255);
+    cursor: pointer;
+    color: white;
+}
+
+#boton:hover{
+    /* width: 60px;
+    height: 30px; */
+    padding: 6.5px;
+}
