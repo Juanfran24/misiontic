@@ -1,0 +1,44 @@
+.topheader{
+
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* logo */
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+/* menu */
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    padding: 0 15px;
+}
+
+.menu a{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+}

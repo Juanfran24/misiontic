@@ -1,0 +1,45 @@
+#s1 div{
+    border: 2px solid green;
+    width: 300px;
+    display: inline-block;
+}
+
+/* #s1 div,#s2 div{
+    border: 2px solid green;
+    width: 300px;
+    display: inline-block;
+} */
+
+#s1 p{
+    margin: 0px;
+}
+
+#s2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#s3 #parrafo1,#parrafo2,#parrafo3{
+    font-size: 1.2rem;
+}
+
+#parrafo4{
+    color: green;
+}
+
+#s4{
+    text-align: center;
+}
+
+#s4 div{
+    background-color: green;
+    width: 100px;
+    display: inline-block;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+#s4 div:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
