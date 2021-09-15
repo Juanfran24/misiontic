@@ -1,0 +1,44 @@
+#img1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#img2{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#img3{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#img4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#img4{
+    animation: ;
+}
+
+@keyframes flotar {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
