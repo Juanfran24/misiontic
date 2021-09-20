@@ -23,7 +23,7 @@
 }
 
 #img4{
-    animation: ;
+    animation: flotar 4s ease-in-out infinite;
 }
 
 @keyframes flotar {

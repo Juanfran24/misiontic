@@ -1,0 +1,96 @@
+header ul{
+    background-color: rgb(79, 87, 94);
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+}
+
+header ul li a:hover{
+    background-color: rgb(27, 21, 21);
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    padding: 20px;
+}
+
+footer span{
+    font-weight: bold;
+}
+
+#contenedor{
+    background-color: green;
+    width: 35%;
+}
+
+/* estilo para menu 2 */
+#menu2{
+    width: 120px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+
+#img2{
+    display: none;
+}
+
+.fa-bars, input[type="checkbox"] {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 2rem;
+    color: white;
+    display: none;
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 800px){
+    .fa-bars{
+        opacity: 1;
+    }
+
+    #contenedor{
+        width: 100%;
+    }
+
+    #img1{
+        display: none;
+    }
+
+    #img2{
+        display: block;
+    }
+
+    #menu1 ul li {
+        opacity: 0;
+    }
+
+    input[type="checkbox"] {
+        display: block;
+    }
+
+    input:checked~#menu2{
+        display: block;
+    }
+}
