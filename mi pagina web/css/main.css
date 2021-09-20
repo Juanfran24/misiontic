@@ -8,6 +8,14 @@
     --menu-mobile-background-color: #3a4460;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--theme-color);
